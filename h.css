@@ -1,0 +1,48 @@
+.navbar-brand{
+  
+    height: 30px;
+}
+.navbar nav{
+  margin-left: 50px;
+  display: flex;
+}
+h1{
+    background-color:rgb(57, 185, 253);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  li a {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .col{
+    background-position: center;
+    background-size: cover;
+    
+  }
